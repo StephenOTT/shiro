@@ -167,7 +167,7 @@ public abstract class AuthorizingRealm extends AuthenticatingRealm
      * @param authenticationCachingEnabled the value to set
      */
     @SuppressWarnings({"UnusedDeclaration"})
-    public void setAuthorizationCachingEnabled(boolean authenticationCachingEnabled) {
+    public void setAuthorizationCachingEnabled(boolean authorizationCachingEnabled) {
         this.authorizationCachingEnabled = authenticationCachingEnabled;
         if (authenticationCachingEnabled) {
             setCachingEnabled(true);
